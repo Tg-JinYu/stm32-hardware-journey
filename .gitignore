@@ -1,0 +1,31 @@
+# ==== 编译输出目录（最重要！千万别传） ====
+build/
+Debug/
+Release/
+
+# ==== IDE 和编辑器配置 ====
+.vscode/
+.idea/
+*.code-workspace
+
+# ==== 编译过程产生的中间文件 ====
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+*.d
+*.su
+*.lst
+*.crf
+*.axf
+*.dep
+
+# ==== 系统垃圾文件 ====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==== STM32CubeMX 产生的特定缓存 ====
+*.mxproject
